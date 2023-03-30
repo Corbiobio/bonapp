@@ -1,15 +1,180 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="/vite.svg">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- link css here only when ccs is not imported in js yet -->
-    <!-- <link rel="stylesheet" href="/css/style.css"> -->
-    <title>Hello</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <!-- <script src="./js/app.js" type="module"></script> -->
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="description du site">
+  <title> titre du site </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <section>
+      <h1>Bon app</h1>
+    </section>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="#">Plats</a>
+        </li>
+        <li>
+          <a href="#">blog</a>
+        </li>
+        <li>
+          <a href="#">contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div>
+      <button>Dark</button>
+    </div>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Nos abonnements</h2>
+      <table>
+        <thead>
+          <tr>
+            <th class="table_bcg_blue">bronze</th>
+            <th class="table_bcg_blue">silver</th>
+            <th class="table_bcg_blue">gold</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1 repas par semaine</td>
+            <td>3 repas par semaine</td>
+            <td>5 repas par semaine</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td class="table_bcg_blue">29 euros/mois</td>
+            <td class="table_bcg_blue">79 euros/mois</td>
+            <td class="table_bcg_blue">149 euros/mois</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <section class="carte_container">
+      <h2>Les plats a la carte</h2>
+
+      <article class="carte_bcg_grey">
+        <div>
+          <img src="/img/img-01.jpg" alt="norriture">
+        </div>
+        <div>
+          <h3>Un super titre </h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et magni delectus reiciendis, necessitatibus
+            ratione quos corrupti harum labore cupiditate. Accusantium itaque consectetur officiis voluptates, optio
+            cumque eum blanditiis a nemo.</p>
+        </div>
+      </article>
+
+      <article>
+        <div>
+          <img src="/img/img-02.jpg" alt="norriture">
+        </div>
+        <div>
+          <h3>Un super titre </h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et magni delectus reiciendis, necessitatibus
+            ratione quos corrupti harum labore cupiditate. Accusantium itaque consectetur officiis voluptates, optio
+            cumque eum blanditiis a nemo.</p>
+        </div>
+      </article>
+      <article class="carte_bcg_grey">
+        <div>
+          <img src="/img/img-03.jpg" alt="norriture">
+        </div>
+        <div>
+          <h3>Un super titre </h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et magni delectus reiciendis, necessitatibus
+            ratione quos corrupti harum labore cupiditate. Accusantium itaque consectetur officiis voluptates, optio
+            cumque eum blanditiis a nemo.</p>
+        </div>
+      </article>
+      <article>
+        <div>
+          <img src="/img/img-04.jpg" alt="norriture">
+        </div>
+        <div>
+          <h3>Un super titre </h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et magni delectus reiciendis, necessitatibus
+            ratione quos corrupti harum labore cupiditate. Accusantium itaque consectetur officiis voluptates, optio
+            cumque eum blanditiis a nemo.</p>
+        </div>
+      </article>
+      <article class="carte_bcg_grey">
+        <div>
+          <img src="/img/img-05.jpg" alt="norriture">
+        </div>
+        <div>
+          <h3>Un super titre </h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et magni delectus reiciendis, necessitatibus
+            ratione quos corrupti harum labore cupiditate. Accusantium itaque consectetur officiis voluptates, optio
+            cumque eum blanditiis a nemo.</p>
+        </div>
+      </article>
+
+      <div class="paralax"></div>
+
+    </section>
+
+    <section class="blog_container">
+      <h2>Blog</h2>
+
+      <article>
+        <img src="/img/pic01.jpg" alt="velo">
+        <h3>Un super titre</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo iusto reprehenderit quos ducimus eius officia
+          aspernatur odio perspiciatis excepturi? Dolorem vitae nisi dicta recusandae hic non cupiditate asperiores
+          consequuntur labore?</p>
+      </article>
+
+      <article>
+        <img src="/img/pic02.jpg" alt="bus">
+        <h3>Un super titre</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo iusto reprehenderit quos ducimus eius officia
+          aspernatur odio perspiciatis excepturi? Dolorem vitae nisi dicta recusandae hic non cupiditate asperiores
+          consequuntur labore?</p>
+      </article>
+
+      <article>
+        <img src="/img/pic03.jpg" alt="voile">
+        <h3>Un super titre</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo iusto reprehenderit quos ducimus eius officia
+          aspernatur odio perspiciatis excepturi? Dolorem vitae nisi dicta recusandae hic non cupiditate asperiores
+          consequuntur labore?</p>
+      </article>
+
+      <article>
+        <img src="/img/pic04.jpg" alt="plage">
+        <h3>Un super titre</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo iusto reprehenderit quos ducimus eius officia
+          aspernatur odio perspiciatis excepturi? Dolorem vitae nisi dicta recusandae hic non cupiditate asperiores
+          consequuntur labore?</p>
+      </article>
+    </section>
+  </main>
+
+
+
+
+
+
+  <script src="app.js" type="module"></script>
+
+</body>
+
 </html>
